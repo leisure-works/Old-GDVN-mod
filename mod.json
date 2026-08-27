@@ -1,0 +1,57 @@
+{
+  "geode": "5.6.1",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081",
+    "mac": "2.2081",
+    "ios": "2.2081"
+  },
+  "version": "5.1.9",
+  "id": "nampe.gdvn",
+  "name": "GDVN",
+  "developer": "NamPE",
+  "description": "GDVN helper mod",
+  "dependencies": {
+    "geode.node-ids": {
+      "version": ">=v1.10.0",
+      "required": true
+    }
+  },
+  "links": {
+    "homepage": "https://gdvn.net",
+    "source": "https://github.com/Demon-List-VN/geode-mod",
+    "community": "https://discord.gg/fybxJ9Y344"
+  },
+  "settings": {
+    "auth": {
+      "type": "custom:auth",
+      "name": "Authentication",
+      "default": ""
+    },
+    "update-check": {
+      "type": "custom:update-check",
+      "name": "Updates",
+      "description": "Check for a new GDVN mod version",
+      "default": ""
+    },
+    "show-level-info": {
+      "type": "bool",
+      "name": "Show level info",
+      "description": "Show level's list info",
+      "default": true
+    },
+    "show-pvp-overlay": {
+      "type": "bool",
+      "name": "Show Versus overlay",
+      "description": "Show realtime Versus progress while playing an active match",
+      "default": true
+    },
+    "open-pvp-chat": {
+      "type": "keybind",
+      "name": "Open Versus chat",
+      "description": "Open the Versus chat while playing or paused",
+      "default": "Enter",
+      "category": "gameplay"
+    }
+  }
+}
